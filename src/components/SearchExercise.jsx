@@ -15,7 +15,7 @@ const SearchExercise = () => {
         exerciseOptions
       );
 
-      setBodyParts(["all", ...bodyPartsData]); //for setting first element of the array as all and the next as other body parts.
+      setBodyParts(["all", ...bodyPartsData]); //for setting first element of the array as all and the remaining all as other body parts.
     };
 
     fetchExerciseData();
