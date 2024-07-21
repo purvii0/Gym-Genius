@@ -4,7 +4,7 @@ import { Box, Stack, Typography } from "@mui/material";
 
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import ExerciseCard from "./ExerciseCard";
-
+//the exercise and exercsie card is not complete yet ill make some changes later on and make that api work.
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <Box id="exercises" sx={{ mt: { lg: "109px" } }} mt="50px" p="20px">
